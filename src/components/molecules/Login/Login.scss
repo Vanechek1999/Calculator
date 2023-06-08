@@ -1,0 +1,17 @@
+@import "../../../styles/variables";
+
+.Login {
+  background: $primary-surface-10;
+  border-radius: 8px;
+}
+
+.Login-Button {
+  position: relative;
+}
+
+.Login-Warning {
+  position: absolute;
+  bottom: 9px;
+  left: 50%;
+  transform: translateX(-50%);
+}

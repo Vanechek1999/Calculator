@@ -1,0 +1,38 @@
+@use "sass:color";
+@import '../../../styles/variables.scss';
+
+.Button {
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  text-align: center;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+.Button_fullWidth {
+  width: 100%;
+}
+
+.Button_color_white {
+  color: #fff;
+}
+
+.Button_backGround_blue {
+  background: $blue;
+}
+
+.Button_backGround_green {
+  background: $green;
+}
+
+.Button_backGround_gray {
+  background: $gray;
+}
+
+.Button_warning {
+  border-color: $red;
+}

@@ -1,0 +1,16 @@
+.Header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 1001;
+  width: 100%;
+}
+
+.Header-Content {
+  justify-content: space-between;
+}
+
+.Header-Autification {
+  display: flex;
+  align-items: center;
+}

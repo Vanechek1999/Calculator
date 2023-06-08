@@ -1,0 +1,30 @@
+@use "sass:color";
+@import '../../../styles/variables.scss';
+
+.Input {
+  width: 100%;
+  border-radius: 8px;
+  padding-left: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 16px;
+  border: 1px solid $blue;
+  color:  $black;
+
+  &::placeholder {
+    color: #6C6C6C;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+}
+
+.Input-Warning {
+  border-color: #ff0000;
+
+  &::placeholder {
+    color: #ff0000;
+  }
+}

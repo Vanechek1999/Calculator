@@ -1,0 +1,56 @@
+.Navigation {
+  width: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 5px rgba(2, 0, 96, 0.25); 
+  height: 100vh;
+  overflow: hidden;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.Navigation-Item {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.Navigation-Item_active::before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  right: -23px;
+  top: 0;
+  background-color: #4F27BF;
+  border-radius: 5px;
+}
+
+
+.Navigation-ShowOrHideMenu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .Navigation {
+    position: absolute;
+    left: -1000px;
+    transition: .3s ease-in-out;
+    z-index: 100;
+    background: #fff;
+  }
+
+  .Navigation-ShowOrHideMenu {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 20px;
+    z-index: 10002;
+  }
+
+  .Navigation_active {
+    left: 0;
+    transition: .3s ease-in-out;
+  }
+}

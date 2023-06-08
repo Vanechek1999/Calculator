@@ -1,0 +1,32 @@
+@use "sass:color";
+@import "../../../styles/variables";
+.Preloader_hide {
+  opacity: 0;
+}
+
+.Preloader_show {
+  opacity: 1;
+}
+
+.Preloader {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1001;
+  pointer-events: none;
+  background-color: #fff;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.Preloader-Icon {
+  position: absolute;
+  top: -100%;
+  right: -100%;
+  bottom: -100%;
+  left: -100%;
+  z-index: 1;
+  margin: auto;
+  animation: spin 2s infinite linear;
+}

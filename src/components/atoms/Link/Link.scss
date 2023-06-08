@@ -1,0 +1,61 @@
+@import "../../../styles/variables";
+
+.Link {
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  background-color: transparent;
+  border: 0;
+  transition:
+    color 0.325s $swift,
+    fill  0.325s $swift;
+  appearance: none;
+
+  &:hover {
+    transition:
+      color 0s $swift,
+      fill  0s $swift;
+  }
+}
+
+.Link_color_blue {
+  color: $blue;
+  fill: $blue;
+
+  &:hover {
+    color: $red;
+    fill: $red;
+  }
+}
+
+.Link_color_black {
+  color: $black;
+  fill: $black;
+
+  &:hover {
+    color: $red;
+    fill: $red;
+  }
+}
+
+.Link_color_darkgrayToBlack {
+  color: $darkgray;
+  fill: $darkgray;
+
+  &:hover {
+    color: $black;
+    fill: $black;
+  }
+}
+
+.Link_color_minorToRed {
+  color: $content-on-background-minor;
+  fill: $content-on-background-minor;
+
+  &:hover {
+    color: $red;
+    fill: $red;
+  }
+}
