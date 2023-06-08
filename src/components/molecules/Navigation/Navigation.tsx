@@ -54,7 +54,7 @@ const Navigation = () => {
               "Navigation",
               showMenu && "Navigation_active"
             )}
-            top={{ all: 24 }}
+            top={{ all: 40 }}
             right={{ all: 20 }}
             left={{ desktop: 32, mobile: 16 }}
           >

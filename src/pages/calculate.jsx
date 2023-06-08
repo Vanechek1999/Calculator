@@ -1,14 +1,10 @@
-import React, { useState, useEffect, useMemo } from "react";
 import { observer } from "mobx-react-lite";
 
 import fieldsValue from "../stores/fields-value";
 
-import Typography from "../components/atoms/Typography/Typography";
 import Header from "../components/molecules/Header/Header";
 import Navigation from "../components/molecules/Navigation/Navigation";
 import Paper from "../components/atoms/Paper/Paper";
-import Input from "../components/atoms/Input/Input";
-import Button from "../components/atoms/Button/Button";
 import Calculator from "../components/molecules/Calculator/Calculator";
 
 import "../styles/global.scss";

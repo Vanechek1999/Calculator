@@ -1,5 +1,3 @@
-import React from "react";
-
 import Typography from "../components/atoms/Typography/Typography";
 import Header from "../components/molecules/Header/Header";
 import Paper from "../components/atoms/Paper/Paper";

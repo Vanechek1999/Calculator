@@ -1,5 +1,4 @@
 import Paper from "../../atoms/Paper/Paper";
-import Button from "../../atoms/Button/Button";
 import Lottie from "lottie-react";
 
 import animationCalc from "../../../lottie/calculator.json";

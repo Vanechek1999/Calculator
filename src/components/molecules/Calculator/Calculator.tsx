@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 import classNames from "classnames";
 
@@ -194,9 +194,9 @@ const Calculator = observer(() => {
               {activeStage === 3 ? (
                 <Button
                   onClick={() => {
+                    sortOfValue("default");
                     stateOfPreloader(true);
                     setTimeout(() => stateOfPreloader(false), 1000);
-                    sortOfValue("default");
                     fullReset();
                     setActiveStage(1);
                   }}
